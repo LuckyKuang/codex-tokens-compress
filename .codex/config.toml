@@ -1,0 +1,11 @@
+[mcp_servers.openai-docs]
+url = "https://developers.openai.com/mcp"
+enabled = true
+tool_timeout_sec = 120
+
+[mcp_servers.openai-docs.tools.search_openai_docs]
+approval_mode = "approve"
+
+[mcp_servers.openai-docs.tools.fetch_openai_doc]
+approval_mode = "approve"
+
