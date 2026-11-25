@@ -2,6 +2,10 @@
 
 # codex-tokens-compress
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/LuckyKuang/codex-tokens-compress/version.svg)](https://yarkr.com/arks/luckykuang/codex-tokens-compress)
+<!-- yarkr:badges:end -->
+
 > 面向 AI 协作场景的 `AGENTS.md` 压缩实验仓库：用统一规约格式提升指令命中率、降低幻觉风险，并量化 token 压缩收益。
 
 ![Variants](https://img.shields.io/badge/AGENTS%20Variants-5-1677FF)
@@ -209,6 +213,39 @@ cat ./TOKEN_COMPARISON.md
 - 文言文规则：[`AGENTS.classical.md`](./AGENTS.classical.md)、[`AGENTS.compact.classical.md`](./AGENTS.compact.classical.md)
 - 对比报告：[`TOKEN_COMPARISON.md`](./TOKEN_COMPARISON.md)
 - 项目协议：[`LICENSE`](./LICENSE)
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/luckykuang/codex-tokens-compress) as the ark [luckykuang/codex-tokens-compress](https://yarkr.com/arks/luckykuang/codex-tokens-compress), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync luckykuang/codex-tokens-compress
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:luckykuang/codex-tokens-compress/agents-md-compress
+npx yarkr-cli add skill:luckykuang/codex-tokens-compress/skill-creator
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add luckykuang/codex-tokens-compress
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/luckykuang/codex-tokens-compress`.
+<!-- yarkr:install:end -->
 
 ## License
 
